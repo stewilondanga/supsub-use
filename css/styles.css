@@ -52,12 +52,12 @@ main {
 }
 
 /* Base styles */
-/*sub, sup {
+sub, sup {
   line-height: 0;
   font-size: 70%;
 }
 
-sub.baseline {
+/*sub.baseline {
   vertical-align: baseline;
 }
 
