@@ -73,7 +73,7 @@ sup.texttop {
 /* Screen-reader styles */
 super::before, super::after {
   /* Common style for visually-hiding content */
-  /*  clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(1px, 1px, 1px, 1px);
   height: 1px;
   width: 1px;
@@ -82,7 +82,7 @@ super::before, super::after {
   white-space: nowrap;
 }
 
-super::before {
+/*super::before {
   content: " [footnote] ";
 }
 
