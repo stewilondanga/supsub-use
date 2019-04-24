@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,79 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|VT323');
+
+body {
+  background-color: #8cafa0;
+  color: #333;
+  font-family: Lato, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+li:not(:first-of-type) {
+  margin-top: 1em;
+}
+
+code {
+  font-family: 'VT323', 'Courier New', Courier, monospace;
+  font-size: 110%;
+  font-weight: normal;
+  font-variant-ligatures: none;
+  padding: 0.05em 0.25em;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 0.5em;
+  box-decoration-break: slice;
+}
+
+main {
+  display: block;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 1em auto;
+  padding: 1em 2em;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0.07em solid rgba(0, 0, 0, 0.5);
+  border-radius: 0.5em;
+}
+
+/* Base styles */
+/*sub, sup {
+  line-height: 0;
+  font-size: 70%;
+}
+
+sub.baseline {
+  vertical-align: baseline;
+}
+
+sup.texttop {
+  vertical-align: text-top;
+  font-size: 60%;
+}
+
+.mixed sup + sub {
+  margin-left: -.5em;
+}
+
+/* Screen-reader styles */
+/*super::before, super::after {
+  /* Common style for visually-hiding content */
+/*  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+}
+
+super::before {
+  content: " [footnote] ";
 }
 
 .containers {
