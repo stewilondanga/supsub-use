@@ -21,6 +21,90 @@
         </a>
     </div>
 
+    <main>
+      <h1>HTML Buddies: <code>&lt;sub&gt;</code> & <code>&lt;sup&gt;</code></h1>
+
+      <p>
+        These elements do not impart much visual style by default. Barring some novel layout, just watch your <code>line-height</code>. Note that screen readers will not announce by default that something is sub- or super-scripted. If you need that to be conveyed, lean on techniques I showed in the first week, which I replicate here <em>strictly for the superscript</em>.
+      </p>
+
+      <h2>Superscript</h2>
+
+      <p>
+        The vertical position can matter and the styles should reflect that.
+      </p>
+
+      <h3>At Ascender Line</h3>
+
+      <p>
+        For ordinals (42<sup>nd</sup>), fractions (<sup>2</sup>/<sub class="baseline">3</sub>) and abbreviations (<sup>a</sup>/<sub class="baseline">c</sub> for account of). They get a default browser style of <code>vertical-align: super</code>.
+      </p>
+
+      <h3>Above Ascender Line</h3>
+
+      <p>
+        Generally used for footnotes (this<sup class="texttop">A</sup>), exponents (E=mc<sup class="texttop">2</sup>), particle charges (μ<sup class="texttop">+</sup>) and isotopes (<sup class="texttop">238</sup>U). They should get the style <code>vertical-align: text-top</code>, but that is generally not how you will see them on the web. It will also require some more leading (<code>line-height</code>).
+      </p>
+
+      <h2>Subscript</h2>
+
+      <p>
+        As with superscript, the vertical position can matter.
+      </p>
+
+      <h3>At Baseline</h3>
+
+      <p>
+        These are somewhat rare, generally limited to fractions (<sup>1</sup>/<sub class="baseline">2</sub>) and abbreviations (<sup>c</sup>/<sub class="baseline">o</sub> for care of). Make sure they have <code>vertical-align: baseline</code>.
+      </p>
+
+      <h3>Below Baseline</h3>
+
+      <p>
+        This is the typical use of subscript text, and receives a default browser style of <code>vertical-align: sub</code>. I’ll use an old joke to demonstrate this one: Johnny was a chemist’s son, but Johnny is no more. For what he thought was H<sub>2</sub>O was H<sub>2</sub>SO<sub>4</sub>.
+      </p>
+
+
+      <h2>Mixed</h2>
+
+      <p class="mixed">
+        There are cases where you need to have superscript and subscript on top of one another. I am not a chemist and I do not know the best order in which to code these, but visually this is an example where you will need a custom style: <sup class="texttop">14</sup><sub>6</sub>C<sup class="texttop">2+</sup><sub>8</sub>
+      </p>
+
+      <p>
+        You can read more about when to use which alignment on which piece of content at Wikipedia.
+      </p>
+
+      <h2>References</h2>
+
+      <ul>
+        <li>
+          <a href="https://codepen.io/aardrian/pen/ZorXRo">HTML Buddies: <code>&lt;del&gt;</code> & <code>&lt;ins&gt;</code></a> (my week 1 challenge entry)
+        </li>
+
+        <li>
+          HTML 5.2: 4.13 Common idioms without dedicated elements: <a href="https://www.w3.org/TR/html/common-idioms-without-dedicated-elements.html#example-d9aa5135">Footnotes</a>
+        </li>
+
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Subscript_and_superscript">Subscript and superscript</a> at Wikipedia
+        </li>
+
+        <li>
+          This pen is for the May 2018 week 3 CodePen challenge, <a href="https://codepen.io/challenges/2018/may#cpc-sub-sup">HTML Buddies</a>.
+        </li>
+
+        <li>
+          You can see a <a href="https://blog.codepen.io/2018/05/26/codepenchallenge-sub-and-sup-roundup/">wrap-up of week 3 on the CodePen blog</a>.
+        </li>
+
+        <li>
+          See <a href="http://adrianroselli.com/2018/06/codepen-html-buddies-challenge.html" target="_top">all four of my pens for this challenge</a> at my site with additional context.
+        </li>
+      </ul>
+
+    </main>
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
