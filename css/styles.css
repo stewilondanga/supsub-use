@@ -66,7 +66,7 @@ sup.texttop {
   font-size: 60%;
 }
 
-/*.mixed sup + sub {
+.mixed sup+sub {
   margin-left: -.5em;
 }
 
