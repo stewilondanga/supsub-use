@@ -28,7 +28,7 @@ li:not(:first-of-type) {
   margin-top: 1em;
 }
 
-/*code {
+code {
   font-family: 'VT323', 'Courier New', Courier, monospace;
   font-size: 110%;
   font-weight: normal;
@@ -39,7 +39,7 @@ li:not(:first-of-type) {
   box-decoration-break: slice;
 }
 
-main {
+/*main {
   display: block;
   box-sizing: border-box;
   width: 90%;
