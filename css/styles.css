@@ -61,12 +61,12 @@ sub.baseline {
   vertical-align: baseline;
 }
 
-/*sup.texttop {
+sup.texttop {
   vertical-align: text-top;
   font-size: 60%;
 }
 
-.mixed sup + sub {
+/*.mixed sup + sub {
   margin-left: -.5em;
 }
 
