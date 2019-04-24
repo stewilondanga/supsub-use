@@ -82,11 +82,11 @@ super::before, super::after {
   white-space: nowrap;
 }
 
-/*super::before {
+super::before {
   content: " [footnote] ";
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
