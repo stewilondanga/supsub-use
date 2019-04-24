@@ -57,11 +57,11 @@ sub, sup {
   font-size: 70%;
 }
 
-/*sub.baseline {
+sub.baseline {
   vertical-align: baseline;
 }
 
-sup.texttop {
+/*sup.texttop {
   vertical-align: text-top;
   font-size: 60%;
 }
